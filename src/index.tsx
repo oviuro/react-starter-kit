@@ -1,11 +1,6 @@
 import * as React from 'react'
-import { FunctionComponent } from 'react'
 import * as ReactDOM from 'react-dom'
+import { App } from './components'
 
-const App: FunctionComponent<{}> = () => (
-	<div>
-		hello world!
-	</div>
-)
 
 ReactDOM.render(<App />, document.getElementById('root'))
